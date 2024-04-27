@@ -3,7 +3,7 @@ const app = express() ;
 const mongoose = require("mongoose") ;
 const path = require("path") ;
 const ejsMate = require("ejs-mate") ;
-const User = require("./models/user.js")
+
 
 async function main () {
     await mongoose.connect('mongodb://127.0.0.1:27017/Agency')
