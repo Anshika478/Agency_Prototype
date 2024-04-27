@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    font-family: 'Plus Jakarta sans' , 'sans-serif';
+    min-height :100vh ;
+    overflow-x: hidden
+} ;
+
+.headlines {
+    width : 100px ;
+}
+
+/* navbar */
+.navbar {
+    height : 100px ;
+    background-color: #232323 ;
+}
+
+.navbar-brand {
+    color : white ;
+    font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+    color : white !important;
+}
+
+.navbar-nav li a {
+    color : white !important;
+}
+
+.navbar-nav li {
+    margin-right: 0.5rem;
+}
+
+.collapse {
+    margin-left: 62rem ;
+}
+
+.dropdown-menu {
+    background-color: #121212;
+    padding : 0px ;
+    border-radius: 1rem ;
+    width: 100px;
+}
+
+/* .dropdown-item:hover .dropdown-item{
+    background-color: #232323 !important;
+} */
+
+.dropdown-item {
+    height : 50px ;
+    border-radius: 1rem;
+    align-items: center;
+    padding: 1rem;
+    width : 100vw ;
+    bottom: 0px ;
+}
+
+/* footer */
+
+footer {
+    width : 100% ;
+    background-color: #232323;
+    color : white ;
+    padding: 2rem;
+}
+
+.f-info {
+    display : flex ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width : 575px) {
+    .f-info{
+        flex-wrap: wrap;
+    }
+    .f-info-socialMedia a{
+        margin-right: 0.5rem !important;
+    }
+}
+
+
+.f-info-description {
+    width : 320px ;
+}
+
+.f-info-services a, .f-info-options a {
+    color : white ;
+    text-decoration: none;
+}
+
+.f-info-socialMedia a{
+    color : white ;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.f-info-socialMedia {
+    margin-left: 5rem;
+}
+/* main page */
+.main {
+    font-size: 3rem ;
+    font-weight: 100
+}
+
+.description {
+    font-size: 25px;
+    color : rgb(185, 185, 185)
+}
+
+.letsTalk {
+    font-size: 45px ;
+    color : white ;
+}
+
+#div1 {
+    background-color: #1A1A1A;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    width : 1350px ;
+}
+
+.imagesContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image{
+    height: 500px ;
+    width : 400px ;
+    margin-right: 3rem;
+    padding: 2rem;
+}
+
+.image:hover {
+    background-color: black;
+    opacity: 0.5 ;
+}
+
+.image1 {
+    background-image: url("https://previews.123rf.com/images/pongchart/pongchart2007/pongchart200700001/151535881-multicultural-working-groupof-4-people-discussing-the-new-project-at-the-table-boss-leader-standing.jpg");
+    background-size:  cover;
+}
+
+.image2 {
+    background-image: url("https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover ;
+}
+
+.image3 {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/017/773/906/large_2x/business-people-meeting-using-laptop-computer-calculator-notebook-stock-market-chart-paper-for-analysis-plans-to-improve-quality-next-month-conference-discussion-corporate-concept-photo.jpg");
+    background-size: cover ;
+}
+
+.image p {
+    font-size: 1.2rem;
+    margin-top: 330px ;
+    display: none;
+}
+
+.image h2 {
+    display: none;
+}
+
+.services img{
+    height : 300px ;
+    width : 250px ;
+    border-radius: 15px;
+}
+
+.services img:hover {
+    box-shadow: 5px 4px 4px grey;
+}
+
+.services h3 {
+    font-size :larger ;
+    text-align: center;
+}
+
+.servicesContainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1A1A1A;
+    padding: 2rem;
+    padding-top: 3rem;
+    border-radius: 15px ;
+}
+
+/* AboutUs */
+
+
+.freeConsultation{
+    height : 630px ;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-image: url("https://media.istockphoto.com/id/1308949444/vector/business-meeting-illustration.jpg?s=612x612&w=0&k=20&c=3fEk-l6DdPP9ivUj59zHEb8Um-Hv85Zt-ExSz546DAo=");
+    background-size : cover ;
+    background-color: white;
+    color : black ;
+    opacity : 0.80 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.freeConsultation .aboutUsH1 {
+    margin-bottom: 3rem;
+}
+
+.freeConsultation button{
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    width : 18rem ;
+    background-color: #ff4545;
+    color: white;
+    border : none ;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.aboutUsp {
+    font-size: 1.5rem;
+
+}
