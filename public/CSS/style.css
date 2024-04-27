@@ -219,6 +219,8 @@ footer {
 
 .freeConsultation button{
     padding: 0.8rem 1rem 0.8rem 1rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     width : 18rem ;
     background-color: #ff4545;
     color: white;
